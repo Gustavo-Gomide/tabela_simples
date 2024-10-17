@@ -15,10 +15,6 @@ class Concecionaria:
     def veiculos(self):
         return self._veiculos
 
-    @veiculos.setter
-    def veiculos(self, veiculos):
-        self._veiculos = veiculos
-
     def adiciona_veiculo(self, veiculo):
         self.veiculos.append(veiculo.__dict__)
 
